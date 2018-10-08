@@ -1,67 +1,416 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="ko">
 <head>
-<title>WEB1 - Welcome</title>
-<meta charset="utf-8">
-<!-- 본문을 설명하는 코드 두가지 -->
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124487363-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Yes24</title>
+	<link rel="stylesheet" type="text/css" href="https://pm.pstatic.net/css/webfont_v170623.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script>
+        $(function () {
+            $(".nav-icon").click(function () {
+                $(this).toggleClass("active");
+                $("hbnav").toggleClass("active");
+            })
+        });
+    </script>
 
-  gtag('config', 'UA-124487363-1');
-</script>
+
 
 </head>
 <body>
-  <h1><a href="index.html">WEB</a></h1>
-<ol>
-  <li><a href="1.html">HTML</a></li>
-  <li><a href="2.html">CSS</a></li>
-  <li><a href="3.html">JavaScript</a></li>
-</ol>
-<h2>WEB</h2>
-<p>
-  The World Wide Web (WWW), also called the Web, is an information space where documents and other web resources are identified by Uniform Resource Locators (URLs), interlinked by hypertext links, and accessible via the Internet.English scientist Tim Berners-Lee invented the World Wide Web in 1989. He wrote the first web browser in 1990 while employed at CERN in Switzerland.The browser was released outside CERN in 1991, first to other research institutions starting in January 1991 and to the general public on the Internet in August 1991.
-</p>
-<p>
-  <div id="disqus_thread"></div>
-<script>
 
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://web1-cjczjtakin.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</p>
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/5b7e2a41f31d0f771d840e9a/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
+<a class="nav-icon">
+    <span class="line1"></span>
+    <span class="line2"></span>
+    <span class="line3"></span>
+    <!--cl 엔터-->
+</a>
 
 
+<div class="wrap">
+	<div class="header">
+        <div class="special_bg">
+			<div class="area_flex">
+				<div class="area_logo">
+					<h1>
+						<a href="#gotop">
+							<span class="Yes24_logo">예스24</span>
+						</a>
+					</h1>
+				</div>
+				<div class="area_links">
+					<a href="#" class="sub1">
+						로그인
+					</a>
+					<a href="#" class="sub2">
+						회원가입
+					</a>
+					<a href="#" class="sub3">
+						마이페이지▼
+					</a>
+					<a href="#" class="sub4">
+						카트
+					</a>
+					<a href="#" class="sub5">
+						주문/배송
+					</a>
+					<a href="#" class="sub6">
+						고객센터
+					</a>
+				</div>
+				<div class="search">
+					<span class="search_box">
+						<input type="text" class="input_text">
+					</span>
+					<div class="autocomplete"></div>
+					<button class="search_button">
+						<span class="blind">검색</span>
+						<span class="search_icon"></span>
+					</button>
+				</div>
+			</div>
+		</div>
+		<div class="section_navbar">
+			<ul class="area_navigation">
+				<ul class="nav">
+
+				</li>
+					<li><a href="#A">Now</a>
+					</li>
+				<li>국내도서
+					<ul class="sub">
+						<li>소설ㅣ문학</li>
+						<li>인문ㅣ역사</li>
+						<li>예술ㅣ종교</li>
+						<li>사회ㅣ과학</li>
+						<li>여행ㅣ잡지</li>
+						<li>기타</li>
+					</ul>
+				</li>
+				<li>외국도서
+					<ul class="sub">
+						<li>문학 소설</li>
+						<li>경제 경영</li>
+						<li>인문 사회</li>
+						<li>예술 대중문화</li>
+						<li>취미 라이프</li>
+						<li>기타</li>
+					</ul>
+				</li>
+				<li>eBook
+					<ul class="sub">
+						<li>로맨스</li>
+						<li>판타지/무협</li>
+						<li>소설/고전</li>
+						<li>인문ㅣ역사</li>
+						<li>비즈니스</li>
+						<li>기타</li>
+					</ul>
+				</li>
+				<li>CD/LP
+					<ul class="sub">
+						<li>가요</li>
+						<li>클래식</li>
+						<li>POP</li>
+						<li>ROCK</li>
+						<li>재즈</li>
+						<li>기타</li>
+					</ul>
+				</li>
+				<li>DVD/Blu-ray
+					<ul class="sub">
+						<li>예약판매</li>
+						<li>할인행사</li>
+						<li>블루레이</li>
+						<li>애니메이션</li>
+						<li>액션/SF</li>
+						<li>기타</li>
+					</ul>
+				</li>
+				<li>영화
+					<ul class="sub">
+						<li>영화예매</li>
+						<li>예매순위</li>
+						<li>금주개봉 영화</li>
+						<li>상영중인 영화</li>
+						<li>영화제 영화</li>
+						<li>기타</li>
+					</ul>
+				</li>
+				<li>공연
+					<ul class="sub">
+						<li>콘서트</li>
+						<li>뮤지컬</li>
+						<li>연극</li>
+						<li>클래식/무용/국악</li>
+						<li>전시/행사</li>
+						<li>기타</li>
+					</ul>
+				</li>
+				<li>문구/GIFT
+					<ul class="sub">
+						<li>독서</li>
+						<li>가구/수납</li>
+						<li>홈데코</li>
+						<li>패브릭/생활</li>
+						<li>주방</li>
+						<li>기타</li>
+					</ul>
+				</li>
+				<li>중고샵
+					<ul class="sub">
+						<li>중고도서</li>
+						<li>직배송 중고</li>
+						<li>중고 음반</li>
+						<li>중고 DVD</li>
+						<li>중고매장</li>
+						<li>기타</li>
+					</ul>
+				</li>
+				<li>패션
+					<ul class="sub">
+						<li>여성패션</li>
+						<li>남성패션</li>
+						<li>캐주얼</li>
+						<li>유아동</li>
+						<li>스포츠/아웃도어</li>
+						<li>기타</li>
+					</ul>
+				</ul>
+			</ul>
+		</div>
+	</div>
+    <hbnav>
+        <ul>
+            <li>도서</li>
+            <li>eBook</li>
+            <li>CD/LP</li>
+            <li>DVD/Blu-ray</li>
+            <li>영화/공연</li>
+            <li>문구/GIFT</li>
+            <li>중고샵</li>
+            <li>패션</li>
+			<a href="subpage(goods)/index2.html"><li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp굿즈</li></a>
+			<a href="#"><li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp이벤트</li></a>
+			<a href="#"><li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp채널예스</li></a>
+        </ul>
+    </hbnav>
+
+    <div class="basket">
+		<a href="#" class="basket1">
+			<li>마이예스24ㅡ</li>
+		</a>
+		<a href="#" class="basket2">
+			<li>최근  본&nbsp 상품ㅡ</li>
+		</a>
+		<a href="#" class="basket3">
+			<li>예스24 &nbsp테마ㅡ</li>
+		</a>
+	</div>
+
+
+	</div>
+	<!--<div class="column_banner" id="gotop">-->
+		<!--<div class="b1">-->
+			<!--<a href="#">-->
+				<!--<span class="book1">book1</span>-->
+			<!--</a>-->
+		<!--</div>-->
+		<!--<div class="b2">-->
+			<!--<a href="#">-->
+				<!--<span class="book2">book2</span>-->
+			<!--</a>-->
+		<!--</div>-->
+		<!--<div class="b3">-->
+			<!--<a href="#">-->
+				<!--<span class="book3">book3</span>-->
+			<!--</a>-->
+		<!--</div>-->
+		<!--<div class="b4">-->
+			<!--<a href="#">-->
+				<!--<span class="book4">book4</span>-->
+			<!--</a>-->
+		<!--</div>-->
+	<!--</div>-->
+	<div class="container">
+
+		<div class="column_banner" id="gotop">
+			<div class="b1">
+				<a href="#">
+					<span class="book1">book1</span>
+				</a>
+			</div>
+			<div class="b2">
+				<a href="#">
+					<span class="book2">book2</span>
+				</a>
+			</div>
+			<div class="b3">
+				<a href="#">
+					<span class="book3">book3</span>
+				</a>
+			</div>
+			<div class="b4">
+				<a href="#">
+					<span class="book4">book4</span>
+				</a>
+			</div>
+			<div class="b5">
+				<a href="#">
+					<span class="book5">book5</span>
+				</a>
+			</div>
+			<div class="b6">
+				<a href="#">
+					<span class="book6">book6</span>
+				</a>
+			</div>
+			<div class="b7">
+				<a href="#">
+					<span class="book7">book7</span>
+				</a>
+			</div>
+			<div class="b8">
+				<a href="#">
+					<span class="book8">book8</span>
+				</a>
+			</div>
+		</div>
+		<div class="column_left">
+			<div class="goods" id=A>GOODS
+				<a href="subpage(goods)/sub1.html">
+					<span class="gi">굿즈이미지</span>
+				</a>
+			</div>
+			<div class="event">EVENT
+				<a href="subpage(event)/sub2.html">
+					<span class="ei">책보내기</span>
+				</a>
+			</div>
+			<div class="recommend">CHANNEL YES
+				<a href="#">
+					<span class="ri">채널예스</span>
+				</a>
+			</div>
+			<div class="todaybook">TODAY BOOK
+				<div class="tb">
+					<a href="#">
+					<div class="tbbox1">
+						<div class="imgswarp1">
+							<img src="images/tbi1.png">
+							<img src="images/tbi1_1.png">
+						</div>
+					</div>
+					</a>
+					<a href="#">
+					<div class="tbbox2">
+						<div class="imgswarp2">
+							<img src="images/tbi2.png">
+							<img src="images/tbi2_2.png">
+						</div>
+					</div>
+					</a>
+					<a href="#">
+					<div class="tbbox3">
+						<div class="imgswarp3">
+							<img src="images/tbi3.png">
+							<img src="images/tbi3_3.png">
+						</div>
+					</div>
+					</a>
+					<a href="#">
+					<div class="tbbox4">
+						<div class="imgswarp4">
+							<img src="images/tbi4.png">
+							<img src="images/tbi4_4.png">
+						</div>
+					</div>
+					</a>
+					<a href="#">
+					<div class="tbbox5">
+						<div class="imgswarp5">
+							<img src="images/tbi5.png">
+							<img src="images/tbi5_5.png">
+						</div>
+					</div>
+					</a>
+					<a href="#">
+					<div class="tbbox6">
+						<div class="imgswarp6">
+							<img src="images/tbi6.png">
+							<img src="images/tbi6_6.png">
+						</div>
+					</div>
+					</a>
+					<a href="#">
+					<div class="tbbox7">
+						<div class="imgswarp7">
+							<img src="images/tbi7.png">
+							<img src="images/tbi7_7.png">
+						</div>
+					</div>
+					</a>
+					<a href="#">
+					<div class="tbbox8">
+						<div class="imgswarp8">
+							<img src="images/tbi8.png">
+							<img src="images/tbi8_8.png">
+						</div>
+					</div>
+					</a>
+					<a href="#">
+					<div class="tbbox9">
+						<div class="imgswarp9">
+							<img src="images/tbi9.png">
+							<img src="images/tbi9_9.png">
+						</div>
+					</div>
+					</a>
+					<a href="#">
+					<div class="tbbox10">
+						<div class="imgswarp10">
+							<img src="images/tbi10.png">
+							<img src="images/tbi10_10.png">
+						</div>
+					</div>
+					</a>
+				</div>
+		</div>
+	</div>
+	</div>
+	<div class="section_footer">
+		<div class="notice">
+			<a href="#">
+			<ul class="n1">
+				<br>
+				<li><strong>공지사항</strong>
+				&nbsp&nbsp
+				·본인인증 서비스 도입 안내(공연)2018-04-04
+				&nbsp
+				·4월,최대 5천원 상품권 받으세요! 2018-04-01
+				&nbsp
+				·4월 무이자할부 안내 2018-04-01
+				&nbsp
+				<strong>더보기></strong></li>
+			</ul>
+			</a>
+		</div>
+		<div class="footer">
+			<ul class="n2">
+				<br>
+				<li><strong>예스이십사(주)</strong>
+				서울시 영등포구 은행로 11, 5층~6층(여의도동,일신빌딩)<br>
+				대표:김기,김석환 개인정보보호책임자 : 한광일 privacy@yes24.com
+					<br>사업자등록번호 : 229-81-37000 통신판매업신고 : 제 2005-02682호 사업자 정보확인
+					<br>copyright ⓒ YES24 Corp. All Rights Reserved.
+				</li>
+			</ul>
+		</div>
+	</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/jquery.smoothscroll.js"></script>
 </body>
 </html>

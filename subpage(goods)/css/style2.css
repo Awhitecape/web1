@@ -1,0 +1,250 @@
+body{
+    font-family: Nanumsquare; margin-left: 40px; margin-right: 40px;
+    margin-top: 2px;
+}
+
+/*CSS reset*/
+body, p, h1, h2, h3, ul, ol{
+    margin: 0;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul, ol{
+    list-style-type: none;
+    padding: 0;
+}
+
+.wrap{
+    width: 1100px;
+    margin: auto;
+}
+
+.header{
+    width: 100%;
+}
+
+.pagetitle{
+    text-align: center;
+    color: orange;
+    font-weight: bold;
+    font-size: 48px;
+    height: 150px;
+    padding-top: 100px;
+}
+
+.titlebox{
+    height: 300px;
+    background-image: url("../images/crematext.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -80px;
+}
+
+.headerimage{
+    height: 744px;
+    width: 1100px;
+    margin: auto;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+
+.box1{
+    float: left;
+    width: 525px;
+    height: 500px;
+    /*background-color: orange;*/
+    margin-right: 50px;
+    margin-bottom: 50px;
+    font-size: large;
+    text-align: center;
+    line-height: 24px;
+}
+
+.ib1{
+    width: 525px;
+    height: 360px;
+    background-image: url("../images/image2.png");
+}
+
+.box2{
+    float: left;
+    width: 525px;
+    height: 500px;
+    margin-bottom: 50px;
+    font-size: large;
+    text-align: center;
+    line-height: 24px;
+}
+
+.ib2{
+    width: 525px;
+    height: 360px;
+    background-image: url("../images/image3.png");
+}
+
+.box3{
+    width: 1100px;
+    margin: auto;
+}
+
+.pb1{
+    float: left;
+    width: 300px;
+    height: 220px;
+    background-image: url("../images/image4.png");
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-repeat: no-repeat;
+}
+
+.pb2{
+    float: left;
+    width: 300px;
+    height: 220px;
+    background-image: url("../images/image5.png");
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-repeat: no-repeat;
+}
+
+.pb3{
+    float: left;
+    width: 300px;
+    height: 220px;
+    background-image: url("../images/image6.png");
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-repeat: no-repeat;
+}
+
+.pb4{
+    float: left;
+    width: 300px;
+    height: 220px;
+    background-image: url("../images/image7.png");
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 30px;
+    background-repeat: no-repeat;
+}
+
+.pb5{
+    float: left;
+    width: 300px;
+    height: 220px;
+    background-image: url("../images/image8.png");
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 200px;
+    background-repeat: no-repeat;
+}
+
+.box4{
+    float: left;
+    width: 100%;
+    height: 300px;
+    background-color: #f2f4f7;
+    background-image: url("../images/information.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 100px;
+    margin-bottom: 50px;
+}
+
+.eventbtn{
+    float: left;
+    width: 200px;
+    height: 35px;
+    border-radius: 100px;
+    margin-left: 33%;
+    text-align: center;
+    padding-top: 18px;
+    margin-bottom: 50px;
+    font-size: large;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.eventbtn:hover{
+    color: white;
+    background-color: orange;
+}
+
+.otherbtn{
+     float: left;
+     width: 200px;
+     height: 35px;
+     border-radius: 100px;
+     margin-left: 2%;
+     text-align: center;
+     padding-top: 18px;
+     margin-bottom: 50px;
+     font-size: large;
+     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+ }
+
+.otherbtn:hover{
+    color: white;
+    background-color: orange;
+}
+
+.Yes24_logo{
+     background-image: url(../images/logo.png);
+     background-repeat: no-repeat;
+     display: block;
+     width: 202px;
+     height: 58px;
+     text-indent: 100%;
+     white-space: nowrap;
+     overflow: hidden;
+     float: left;
+     margin-top: 20px;
+     margin-left: 20px;
+ }
+
+.footer{
+    float: left;
+}
+
+.fb{
+    margin-left: 15%;
+    width: 1100px;
+    height: 50px;
+    text-align: center;
+    color: #BDBDBD;
+
+}
+
+.topbtn {
+    float: left;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    border: 2px solid orange;
+    margin-top: -100px;
+    margin-left: 120%;
+    margin-bottom: 50px;
+    font-size: x-large;
+    text-align: center;
+    font-weight: bold;
+    color: orange;
+}
+
+.cat4{
+    background-image: url(../images/cat4.png);
+    position: fixed;
+    width: 100px;
+    height: 112px;
+    margin-top: 450px;
+    margin-left: 85%;
+}
+
+
+.imgswarp img:last-child {display:none}
+.imgswarp:hover img:first-child {display:none}
+.imgswarp:hover img:last-child {display:inline-block}
